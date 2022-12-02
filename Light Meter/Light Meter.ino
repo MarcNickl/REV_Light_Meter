@@ -53,7 +53,7 @@ void loop() {
 
 
 
-      //Anolog controle wheel
+      //Anolog control wheel
 
   // EV out
   // out[] holds the output values
@@ -103,7 +103,6 @@ void loop() {
 
   Serial.print(Pot);
   Serial.print("  ");
-
 
 
   delay(25);
