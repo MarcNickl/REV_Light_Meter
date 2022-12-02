@@ -13,6 +13,8 @@ i have stolen the idea of having basicly two base iso's as there are 4 outputs o
 
 
 # To Do List
-calibrate the light meter to get an acurate Lux/EV Value
+calibrate the light meter to get an acurate Lux/EV Value 
+
 Set up the potentiomitor in the dile
+
 Find a way to make the nedle move 
