@@ -4,7 +4,7 @@ A semi Digital Light Meter
 # Goals
 To create a light meter using anlog inputs where all values of exposure are already entered and a ± EV value is the output.
 
-#Progress
+# Progress
 As of writing this i have stripped down a gossen Luna F and gotten an arduino UNO
 
 i am using the existing light sensor from the gossen as it has a really wide Dynamic range.
