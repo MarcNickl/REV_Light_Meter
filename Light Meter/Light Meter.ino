@@ -23,6 +23,8 @@ void setup() {
 void loop() {
 
 
+// This secion can be cleaned up there are too many multimaps could easyly go from anolog in to EV
+
 
   // Lux out
   // out[] holds the output values
@@ -40,24 +42,36 @@ void loop() {
   // out[] holds the output values
   int out1[] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16 };  //enter your own numbers
 
-
-
-
-
-
-
-
-  // LUX in
+  // Lux in
   // in[] holds the measured analogRead() values
   // note: the in[] array should have increasing values
   int in1[] = { 5, 10, 20, 40, 80, 160, 320, 620, 1280, 2560, 10240, 20480, 40960, 81920 };  // enter your own number
-
 
   int val1 = lux;
   int EV = multiMap(val1, in1, out1, 14);  // replace 14 with your number of data points
 
 
 
+
+      //Anolog controle wheel
+
+  // EV out
+  // out[] holds the output values
+  int out3[] = { 150, 140, 130, 120, 110, 100, 90, 80, 70, 60, 50, 40, 30, 20 };  //enter your own numbers
+
+// Potentiomitor anolog values in
+
+  // in[] holds the measured analogRead() values
+  // note: the in[] array should have increasing values
+  int in3[] = { 90, 97, 105, 113, 124, 134, 147, 164, 185, 218, 255, 317, 408, 506 };  // enter your own numbers
+
+  int val3 = analogRead(A1); // make sure its right
+  int Pot = multiMap(val, in3, out3, 14);  // replace 14 with your number of data points
+
+
+
+
+    //Aravage section
 
   SUM = SUM - READINGS[INDEX];        // Remove the oldest entry from the sum
   VALUE = analogRead(A0);             // Read the next sensor value
@@ -68,6 +82,9 @@ void loop() {
   AVERAGED = SUM / WINDOW_SIZE;  // Divide the sum of the window by the window size for the result
 
 
+
+
+  // Final Read out - Not really important for what i want but useful in developemnt
 
   // read the input on analog pin 0:
   int sensorValue = analogRead(A0);
@@ -84,6 +101,8 @@ void loop() {
   Serial.print(EV);
   Serial.print("  ");
 
+  Serial.print(Pot);
+  Serial.print("  ");
 
 
 
