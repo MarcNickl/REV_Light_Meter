@@ -1,8 +1,12 @@
 # Light Meter
-A semi Digital Light Meter
+A semi Digital Light Meter (at the moment)
 
 # Goals
-To create a light meter using anlog inputs where all values of exposure are already entered and a ± EV value is the output.
+To create a null/zero pointer measurement light meter.
+
+simular to the Luna-Pro F light meter.
+
+using anlog inputs where all values of exposure are already entered and a ± EV value is the output.
 
 # Progress
 As of writing this i have stripped down a gossen Luna F and gotten an arduino UNO
