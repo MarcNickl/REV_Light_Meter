@@ -22,3 +22,13 @@ calibrate the light meter to get an acurate Lux/EV Value
 Set up the potentiomitor in the dile
 
 Find a way to make the nedle move 
+
+
+# Functionality
+
+- the ability to export a time log of all information gathered with the time at which it was optained - maybe useful for continuity
+
+- 1 dile for apiture/EV
+- Buttons to set ISO/Shutter speed/Angle
+- Magic Button to switch light meter from lux to XY Chroma (requiring a 2 second press)
+- Modifyer buttom (basicly an if this then that changing speed to iso and magic to menu also apiture to relative EV)
