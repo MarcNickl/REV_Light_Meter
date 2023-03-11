@@ -32,3 +32,4 @@ Find a way to make the nedle move
 - Buttons to set ISO/Shutter speed/Angle
 - Magic Button to switch light meter from lux to XY Chroma (requiring a 2 second press)
 - Modifyer buttom (basicly an if this then that changing speed to iso and magic to menu also apiture to relative EV)
+- HUE° and Satudation 
