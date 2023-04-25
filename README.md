@@ -8,6 +8,8 @@ simular to the Luna-Pro F light meter.
 
 using anlog inputs where all values of exposure are already entered and a ± EV value is the output.
 
+the best representative term is REV (Relative Exposure Value)
+
 # Progress
 As of writing this i have stripped down a gossen Luna F and gotten an arduino UNO
 
@@ -28,8 +30,9 @@ Find a way to make the nedle move
 
 - the ability to export a time log of all information gathered with the time at which it was optained - maybe useful for continuity
 
-- 1 dile for apiture/EV
-- Buttons to set ISO/Shutter speed/Angle
-- Magic Button to switch light meter from lux to XY Chroma (requiring a 2 second press)
+from a functionality perspective i really like the controlability of the arri alexa view finder.
+- 1 dile for apiture when turned it incicates REV from the point selected
+- Modifyer buttons to enable the dial to adjust the ISO/Shutter [speed/Angle]
+- XY Button to switch light meter from lux to XY Chroma (requiring a 2 second press)
 - Modifyer buttom (basicly an if this then that changing speed to iso and magic to menu also apiture to relative EV)
 - HUE° and Satudation 
