@@ -1,5 +1,6 @@
 # Light Meter
-A semi Digital Light Meter (at the moment)
+A Digital light meter using Relative EV
+
 
 # Goals
 To create a null/zero pointer measurement light meter.
