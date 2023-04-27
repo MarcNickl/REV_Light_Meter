@@ -40,4 +40,6 @@ from a functionality perspective i really like the controlability of the arri al
 
 # Licence
 
-This is a personal project for a problem that I would like to fix for my workflow. If you see a problem with the code please git in contact all sugestions are welcome. The code maybe be freely copied for non-commerical purposes.
+This is a personal project for a problem that I aims to make my life easyer. The code maybe be freely copied for non-commerical purposes.
+
+If you notice a problem with the code or have a better idea of implication please git in contact all sugestions are welcome. 
