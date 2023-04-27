@@ -35,7 +35,7 @@ from a functionality perspective i really like the controlability of the arri al
 - Modifyer buttons to enable the dial to adjust the ISO/Shutter [speed/Angle]
 - XY Button to switch light meter from lux to XY Chroma (requiring a 2 second press)
 - Modifyer buttom (basicly an if this then that changing speed to iso and magic to menu also apiture to relative EV)
-- HUE° and Satudation 
+- HUE° and Satudation.
 
 
 # Licence
