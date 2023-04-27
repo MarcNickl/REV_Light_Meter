@@ -36,3 +36,8 @@ from a functionality perspective i really like the controlability of the arri al
 - XY Button to switch light meter from lux to XY Chroma (requiring a 2 second press)
 - Modifyer buttom (basicly an if this then that changing speed to iso and magic to menu also apiture to relative EV)
 - HUE° and Satudation 
+
+
+# Licence
+
+This is a personal project for a problem that I would like to fix for my workflow. If you see a problem with the code please git in contact all sugestions are welcome. The code maybe be freely copied for non-commerical purposes.
