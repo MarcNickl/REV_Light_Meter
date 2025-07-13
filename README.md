@@ -1,3 +1,7 @@
+# Update
+
+Low-key has been made redundant by Lit Solutions' new DUO 
+
 # Light Meter
 A Digital light meter using Relative EV - this project needs a huge overhall and i see more robust ways of overcoming the same challenges
 
